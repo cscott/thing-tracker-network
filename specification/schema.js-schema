@@ -74,7 +74,7 @@ schema({
     "*instructions": Array.of({
       "*step": Number,
       "*text": String,
-      "*imageUrls": Array.of(String),
+      "*images": Array.of(String),
       "*xInstructionMetadata": Object
     }),
 
